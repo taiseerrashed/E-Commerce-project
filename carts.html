@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>E-Commerce || carts</title>
+</head>
+<body>
+    <header class="header bg-body-tertiary">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm">
+                <a href="index.html" class="navbar-brand">Technos<span>.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav menue ms-4 me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Shop</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="javascript:void(0)">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="navbar-nav" id="links">
+                        <li class="nav-item me-4"><a href="login.html">Sign In</a></li>
+                        <li class="nav-item"><a href="register.html">Sign Up</a></li>
+                    </ul> 
+    
+                    <ul class="navbar-nav" id="user_info">
+                        <li class="nav-item me-4"><a href="#" id="user"></a></li>
+                        
+                        
+                        <li class="nav-item"><a href="#" id="logout">Log Out</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product">
+        
+        <div class="container">
+            <div class="products">
+                
+                
+            </div>
+            <div class="noProducts"></div>
+            
+        </div>
+        <div class="totalPrice"></div>
+    </section>
+    <hr>
+    <section class="favourite">
+        <div class="container">
+            <h2 class="cart-title-fav">Your Favourite</h2>
+            <div class="favourites">
+              
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/carts.js"></script>
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

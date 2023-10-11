@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>E-Commerce || Home Page</title>
+</head>
+<body>
+    <!-- header section starts------------------------------------------------------- -->
+    <header class="header bg-body-tertiary">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm">
+                <a href="index.html" class="navbar-brand">Technos<span>.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav menue ms-4 me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Shop</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="javascript:void(0)">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="navbar-nav links" id="links">
+                        <li class="nav-item me-4"><a href="login.html">Sign In</a></li>
+                        <li class="nav-item"><a href="register.html">Sign Up</a></li>
+                    </ul> 
+                    
+                    <ul class="navbar-nav" id="user_info">
+                        <li class="nav-item me-4"><a  href="#" id="user"></a></li>
+                        <!-- <li class="nav-item"><a  href="carts.html">carts</a></li> -->
+                        <li class="nav-item shopping-cart ">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+                            
+                            <div class="carts-products">
+                                <div></div>
+                                <a href="carts.html">View All Products</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="#" id="logout">Log Out</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header section ends------------------------------------------------------- -->
+
+    <!-- Home section starts------------------------------------------------------- -->
+    <section class="home">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide " data-bs-ride="carousel" data-bs-theme="dark">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="animate">
+                        <div class="carousel-caption">
+                            <p>Starting at <span>300$</span></p>
+                            <h1>Apple Watch</h1>
+                            <h4>Don't miss the chance</h4>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <img src="images/slider-img-1.png" alt="First slide" class="animate d-block">
+                </div>
+                <div class="carousel-item ">
+                    <div class="animate">
+                        <div class="carousel-caption">
+                            <p>Starting at <span>300$</span></p>
+                            <h1>Apple Watch</h1>
+                            <h4>Don't miss the chance</h4>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <img src="images/slider-img-1.png" alt="second slide" class="animate d-block">
+                </div>
+                <div class="carousel-item ">
+                    <div class="animate">
+                        <div class="carousel-caption">
+                            <p>Starting at <span>300$</span></p>
+                            <h1>Apple Watch</h1>
+                            <h4>Don't miss the chance</h4>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <img src="images/slider-img-1.png" alt="third slide" class="animate d-block">
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <a class="carousel-control-prev" role="button" data-bs-target="#demo" data-bs-slide="prev" tabindex="0" href="#">
+                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" role="button" data-bs-target="#demo" data-bs-slide="next" tabindex="0" href="#">
+                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+        <section id="categories" class="categories">
+            <div class="categories-content">
+                <div class="category-item">
+                    <div class="category-item-img">
+                        <input type="image" class="img" src="images/mob-cat1.png" alt="mobile">
+                    </div>
+                    <div class="category-item-name">
+                        <h2><a href="#">Mobile</a></h2>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-item-img">
+                        <input type="image" class="img" src="images/watch-cat2.png" alt="stop watch">
+                    </div>
+                    <div class="category-item-name">
+                        <h2><a href="#">Smart Watch</a></h2>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-item-img">
+                        <input type="image" class="img" src="images/tablet cat-3.png" alt="tablet">
+                    </div>
+                    <div class="category-item-name">
+                        <h2><a href="#">Tablet</a></h2>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-item-img">
+                        <input type="image" class="img" src="images/lap-cat4.png" alt="Labtop">
+                    </div>
+                    <div class="category-item-name">
+                        <h2><a href="#">Labtop</a></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <!-- Home section ends------------------------------------------------------- -->
+
+    <!-- products section starts----------------------------------------------------- -->
+    <section class="product">
+        <div class="cont">
+            <div class="products-header">
+                <h2>Trending Products</h2>
+            </div>
+            <div class="search row p-2">
+                <select class="form-select col">
+                    <option hidden>Search</option>
+                    <option >Search By Name</option>
+                    <option >Search By Category</option>
+                </select>
+                <div class="col">
+                    <input type="text" class="form-control" id="search" placeholder="Search Here...">
+                </div> 
+            </div>
+        </div><hr>
+         
+        <div class="container">
+            <div class="products">
+                
+            </div>
+        </div>
+    </section>
+    <!-- products section ends------------------------------------------------------- -->
+
+    <!-- contact section starts------------------------------------------------------- -->
+    <section class="Contact">
+        
+        <div class="container">
+            <div class="contact-header"><h2>Contact US</h2></div>
+            <div class="contact-content">
+                <div class="info">
+                    <h3 class="fw-bold">Contact Information</h3>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i>01115603479</li>
+                        <li><i class="fas fa-envelope"></i>info@thecnos.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i>Nasr city, rozana mall, next to sports arena1</li>
+                    </ul>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/01099452977"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="send">
+                    <h3>Send Us Message</h3>
+                    <form class="form">
+                        <div class="row">
+                            <div class="col">
+                                <input placeholder="First Name" type="text" name="firstName">
+                            </div>
+                            <div class="col">
+                                <input placeholder="Last Name" type="text"  name="lastName">
+                            </div>
+                        </div>
+                        
+                        <input placeholder="Email" type="email"  name="email">
+                        
+                        <input type="tel" placeholder="Contact Number"  name="contactNumber">
+                        
+                        <textarea rows="6" placeholder="Message" name="message"></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d6907.365366232605!2d31.397544675203886!3d30.045960123087408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d30.0473151!2d31.3969518!5e0!3m2!1sar!2seg!4v1687135987721!5m2!1sar!2seg" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=nasr city&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends------------------------------------------------------- -->
+
+    <!-- footer section starts------------------------------------------------------ -->
+    <section class="footer">
+        <footer>
+            <div class="container-fluid">
+                <div class="row  mt-5 mx-4 row-2 justify-content-xl-around justify-content-sm-between">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pt-4 order-1">
+                        <ul class="list-unstyled">
+                            <li class="mt-md-0 mt-4">Our Solution</li>
+                            <li>Integrated Platform Security</li>
+                            <li>Core Features</li>
+                            <li>Product Features and Services</li>
+                            <li>Pricing</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 pt-4 order-2">
+                        <ul class="list-unstyled">
+                            <li class="mt-md-0 mt-4">Your needs</li>
+                            <li>Integrated Platform Security</li>
+                            <li>Core Features</li>
+                            <li>Product Features</li>
+                            <li>Pricing</li>
+                            <li>Product Features</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-auto col-lg-6 col-md-6 pt-4 col-sm-6 my-sm-0 order-md-3 order-sm-1 d-flex">
+                        <ul class="list-unstyled">
+                            <li class="mt-md-0 mt-4">Offer</li>
+                            <li>Integrated Security</li>
+                            <li>Core Features</li>
+                            <li>Product Features</li>
+                            <li>Pricing</li>
+                            <li>Integrated Security</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-auto text-left col-lg-4 col-md-4 col-sm-6 col-12 pt-4 my-sm-0 order-6 my-auto">
+                        <div class="input-group-lg input-group mb-3 mt-md-0 mt-4">
+                            <input type="text" class="form-control" placeholder="Enter your e-mail address" >
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="button" id="button-addon2"> <b>Join</b></button>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li> <p class=" mt-5">FOLLOW THE WEB ON SOCIAL NETWORKS</p></li>
+                            <li class="icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-linkedin"></i>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copy"><p>Copyright &copy; 2023 All Rights Reserved </p></div>
+    </section>
+    <!-- footer section ends-------------------------------------------------------- -->
+
+    <button id="scroll"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
