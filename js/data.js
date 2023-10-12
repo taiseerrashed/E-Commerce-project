@@ -7,7 +7,6 @@ let productsDB = [
         price: "199",
         imageUrl: "images/51fAmmSJcUL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 2,
@@ -16,7 +15,6 @@ let productsDB = [
         price: "399",
         imageUrl: "images/71XohCtGXHL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 3,
@@ -25,7 +23,6 @@ let productsDB = [
         price: "799",
         imageUrl: "images/81MF389-9gS._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 4,
@@ -34,7 +31,6 @@ let productsDB = [
         price: "999",
         imageUrl: "images/710+gleyyaL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 5,
@@ -43,7 +39,6 @@ let productsDB = [
         price: "349",
         imageUrl: "images/61bWecCyfjL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 6,
@@ -52,7 +47,6 @@ let productsDB = [
         price: "599",
         imageUrl: "images/71QNWG1NklL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 7,
@@ -61,7 +55,6 @@ let productsDB = [
         price: "799",
         imageUrl: "images/61ZNIHIEUqL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 8,
@@ -70,7 +63,6 @@ let productsDB = [
         price: "1099",
         imageUrl: "images/718ntMAOGIL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
     {
         id: 9,
@@ -79,7 +71,6 @@ let productsDB = [
         price: "249",
         imageUrl: "images/61CZSoSnVPL._AC_UY218_.jpg",
         count : 1,
-        inCart:0,
     },
 ];
 localStorage.setItem("products", JSON.stringify(productsDB));
